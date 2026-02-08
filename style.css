@@ -1,0 +1,37 @@
+.container {
+    padding-right: calc(50vw - 640px);
+    padding-left: calc(50vw - 640px);
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    width: 600px;
+    height: 600px;
+    table-layout: fixed;
+}
+table td {
+    border: 7px solid #000;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    min-width: 10px;
+    background: white;
+}
+.yellow {
+    background: yellow;
+}
+.red {
+    background: red;
+}
+.black {
+    background: black;
+    color: white;
+}
+.blue {
+    background: blue;
+    color: white;
+}
